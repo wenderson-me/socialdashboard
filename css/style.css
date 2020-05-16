@@ -1,0 +1,356 @@
+/**** LIGHT THEME COLOURS****/
+
+p {
+    color: hsl(228, 12%, 44%);
+}
+
+nav p {
+    color: hsl(228, 12%, 44%);
+}
+
+#toggleBall {
+    background-color: white;
+}
+
+.cardsLarge {
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+#instaCardCover {
+    background-color: hsl(227, 47%, 96%);
+}
+
+.updateDiv p {
+    color: hsl(163, 72%, 41%);
+}
+
+#overviewTitle {
+    color: hsl(228, 12%, 44%);
+}
+
+.overviewCards {
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+.positiveText {
+    color: hsl(163, 72%, 41%);
+}
+
+.negativeText {
+    color: hsl(356, 69%, 56%);
+}
+
+p.negativetext {
+    color: hsl(356, 69%, 56%)
+}
+
+
+
+
+/* GENERAL */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.followersContainer {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+}
+
+p {
+    font-weight: 700;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3.5em;
+    color: black;
+}
+
+/* NAV */
+
+nav {
+padding-top: 15px;
+}
+
+nav h1 {
+    font-size: 1.5em;
+    margin-bottom: 7.5px;
+}
+
+nav p {
+    font-weight: 700;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+hr.solid {
+    margin-top: 20px;
+    border-top: 1px solid #252B43;
+  }
+
+  /* Toggle Div */
+
+.toggleDiv {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggleDiv p {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+#toggleBackground {
+    width: 45px;
+    height: 25px;
+    background: rgb(31,87,142);
+    background: linear-gradient(90deg, rgba(31,87,142,1) 0%, rgba(44,140,86,1) 100%);
+    border-radius: 50px;
+}
+
+#toggleBall {
+    border-radius: 50%;
+    margin: 4.5px;
+    height: 62%;
+    width: 15px;
+}
+
+.ballToRight {
+    transform: translate(20px);
+}
+/* CARDS LARGE */
+
+/* Cards Design */
+
+.cardsLargeDiv {
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.cardsLarge {
+    border-radius: 5px;
+    margin: 15px;
+    width: 100%;
+    height: 200px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cardsLarge:hover {
+    transform: scale(1.15);
+}
+
+#fbCard {
+    border-top: 4px solid hsl(203, 89%, 53%);
+}
+
+#twCard {
+    border-top: 4px solid hsl(195, 100%, 50%);
+}
+
+/* Insta Card */
+#inCard {
+    transition: all 0.2s ease-in-out;
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
+
+#instaCardCover {
+    transition: all 0.2s ease-in-out;
+    margin-top: 4px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+#youCard {
+    border-top: 4px solid hsl(348, 97%, 39%);
+}
+
+/* Cards Content */
+
+.iconHandleDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-top: 8px;
+    margin-right: 7.5px;
+    height: 20px;
+}
+
+.handle {
+    font-size: 0.7em;
+}
+
+.followersDiv {
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
+.followersDiv h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.followersDiv p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+}
+
+.updateDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.upArrow {
+    margin-top: 6px;
+    margin-right: 5px;;
+    height: 4px;
+}
+
+.updateDiv p {
+    margin: 0;
+    font-size: 0.75em;
+}
+
+/* OVERVIEW */
+
+#overviewTitle {
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 30px;
+}
+
+.overviewCardsDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.overviewCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 100%;
+    height: 125px;
+    transition: all 0.2s ease-in-out;
+}
+
+.overviewCards h2 {
+    margin-top: 26.560px;
+    font-size: 2em;
+}
+
+.overviewCards:hover {
+    transform: scale(1.15);
+}
+
+.overviewLeft {
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.overviewLeft p {
+    margin: 0;
+}
+
+.overviewRight {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.overviewRight p {
+    margin-top: 35px;
+    font-size: 0.75em;
+}
+
+.overviewCards img {
+    margin-right: 0;
+    text-align: center;
+}
+
+img.overviewArrow {
+    padding: 3px;
+}
+/* FOOTER */
+
+.attribution {
+    color: white;
+    margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/********************************* MEDIA QUERIES FOR DESKTOP *********************************/
+
+@media (min-width: 500px) {
+
+    /* TOP SECTION */
+    
+    .toggleDiv {
+        position: relative;
+        top: -25px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .toggleDiv p {
+        margin-right: 10px;;
+    }
+    hr.solid {
+        display: none;
+      }
+
+    /* FOLLOWERS SECTION */ 
+    .cardsLarge {
+        width: 300px;
+    }
+
+    .cardsLargeDiv {
+        text-align: center;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    /* OVERVIEW SECTION */
+    
+    .overviewCards {
+        width: 300px;
+    }
+    }
+
+    @media (min-width: 1680px) {
+        .overviewCards {
+            width: 500px;
+        }
+    }
